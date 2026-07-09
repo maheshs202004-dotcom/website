@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #0056b3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>A simple HTML & CSS webpage</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>About This Website</h2>
+    <p>
+        This is a simple website created using HTML and CSS.
+        You can customize it by adding more pages, images, and content.
+    </p>
+
+    <img src="https://picsum.photos/800/400" alt="Sample Image">
+
+    <br><br>
+
+    <button onclick="showMessage()">Click Me</button>
+</div>
+
+<footer>
+    <p>&copy; 2026 My Simple Website. All rights reserved.</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Thanks for visiting my website!");
+    }
+</script>
+
+</body>
+</html>
